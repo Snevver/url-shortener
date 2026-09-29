@@ -28,8 +28,4 @@ class URLController extends Controller
             'shortenedUrl' => url('/s/' . $slug),
         ]);
     }
-
-    public function test() {
-        return true;
-    }
 }
